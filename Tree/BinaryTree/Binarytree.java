@@ -52,19 +52,20 @@ import stack.stackmain;
    }
 
    public void display(){
-    display(root, " ");
-   }
+    display(root, "");
+}
 
-   private display(Node,String indent){
+private void display(Node node, String indent){
     if(node != null){
         return;
     }
     System.out.println(indent + node.value);
     display(node.left, indent + "\t");
-    display(node.right + indent + "\t");
-   }
+    display(node.right , indent + "\t");
+}
    public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
+    Binarytree tree = new Binarytree();
     tree.populate(scanner);
     tree.display();
    }
