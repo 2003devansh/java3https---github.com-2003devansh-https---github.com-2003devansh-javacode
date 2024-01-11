@@ -56,7 +56,7 @@ import stack.stackmain;
 }
 
 private void display(Node node, String indent){
-    if(node != null){
+    if(node == null){
         return;
     }
     System.out.println(indent + node.value);
