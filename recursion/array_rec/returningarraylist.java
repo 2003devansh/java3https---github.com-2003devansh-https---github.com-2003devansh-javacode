@@ -4,9 +4,12 @@ import java.util.ArrayList;
 
 public class returningarraylist {
     public static void main(String[] args) {
+        int[] arr = {1,2,3,4,5,5,6};
+        ArrayList<Integer> ans = findallindex(arr, 5, 0,new ArrayList<>());
+        System.out.println(ans);
         
     }
-    static ArrayList findallindex(int[] arr , int target,int index, ArrayList<Integer> list){
+    static ArrayList<Integer> findallindex(int[] arr , int target,int index, ArrayList<Integer> list){
         if(index == arr.length) {
             return list;
         }
@@ -15,7 +18,7 @@ public class returningarraylist {
             list.add(index);
         }
 
-           findallindex(arr, target, index +1);
+          return findallindex(arr, target, index +1,list);
 
     }
 }
