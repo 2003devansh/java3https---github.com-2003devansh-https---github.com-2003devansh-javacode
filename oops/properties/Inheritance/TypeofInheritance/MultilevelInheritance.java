@@ -5,6 +5,7 @@ package oops.properties.Inheritance.TypeofInheritance;
 
 // Box -> boxweight -> boxprice
 
+// not allowed in java
 public class MultilevelInheritance {
     
 }
