@@ -15,6 +15,11 @@ public class Main {
         // System.out.println(box4.weight);
         // weigth can't be access because it is refrencing class (box that
         // determine what properties can be accsessed not the one 
+
+        BoxPrice box = new BoxPrice(5,8,200);
+
+
+
     }
     
 }
