@@ -1,9 +1,6 @@
 package question;
 // https://leetcode.com/problems/happy-number/
 
-import randomjavaprograme.passinginfunctionarray;
-import recursion.rec;
-
 public class happynumber {
 
 
