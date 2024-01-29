@@ -4,5 +4,8 @@ package oops.properties.Polymorphism;
 
 
 public class Shapes {
+ void Area(){
+        System.out.println("im in shape");
+    }
     
 }
